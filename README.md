@@ -103,14 +103,6 @@ de enlaces, manutenção preditiva e microrredes. Também discute o uso eficient
 reduzir desperdício, a inspiração em saberes indígenas de uso consciente dos recursos, a revisão dos pesos
 para evitar viés e a **validação humana** das decisões automatizadas.
 
-Detalhes completos em [`relatorio_tecnico.md`](relatorio_tecnico.md).
-
-## ⚠️ Limitações e próximos passos
-
-- Dados simulados e em pequeno volume; modelo linear simples.
-- Melhorias possíveis: comparação de modelos com AIC/BIC, Grid/Random Search, validação cruzada,
-  pesos de alerta configuráveis e dados de sensores reais.
-
 ## 🎥 Vídeo de apresentação
 
 O link (YouTube, não listado) está em [`link_video.txt`](link_video.txt).
