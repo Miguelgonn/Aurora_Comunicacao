@@ -86,6 +86,10 @@ Pontuação = `prioridade × 12` + `erro relativo (máx. 40)` + `30 se módulo e
 O **max-heap** mantém o alerta mais urgente na raiz; inserção e remoção custam **O(log n)**,
 contra O(n) ou O(n log n) de uma lista simples.
 
+  ### Busca por prefixo (trie)
+   Armazena módulos, códigos de sensores e mensagens de alerta, sem diferenciar acentos ou maiúsculas.
+   Exemplo: `com` retorna `Comando` e `Comunicação`; `0x1` retorna os códigos de sensor que começam com esse prefixo.
+
 
 ### Exemplo de saída (fila de alertas)
 
