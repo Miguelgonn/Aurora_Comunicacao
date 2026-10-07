@@ -109,6 +109,6 @@ para evitar viés e a **validação humana** das decisões automatizadas.
 
 ## 🎥 Vídeo de apresentação
 
-O link (YouTube, não listado) está em [`link_video.txt`](link_video.txt).
+
 
 
