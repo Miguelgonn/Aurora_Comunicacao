@@ -2,6 +2,14 @@
 
 > Protótipo em Python para organizar, analisar e priorizar dados de comunicação da colônia **Aurora Siger**.
 
+## 👥 Equipe
+
+| Nome | RM |
+|------|----|
+| Ana Gabriela     | rm571312 |
+| Kaique           | rm570533 |
+| Miguel Antunes   | rm573643 |
+| Miguel Gonçalves | rm573793 |
 
 ## 📌 Sobre o projeto
 
