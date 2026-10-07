@@ -24,9 +24,6 @@ interplanetária com latência alta e variável. O **SCIC** ajuda a equipe a:
 - localizar módulos, sensores e alertas **por prefixo** (trie);
 - gerar uma análise final de apoio à decisão.
 
-Projeto desenvolvido como **Atividade Integradora** (fase de Ciência de Dados, Estruturas de Dados,
-Arquitetura de Computadores e Eletricidade aplicada à comunicação).
-
 ## ✨ Funcionalidades
 
 | Menu | Funcionalidade | Conceito aplicado |
@@ -55,19 +52,16 @@ Arquitetura de Computadores e Eletricidade aplicada à comunicação).
 
 ## ⚙️ Instalação e execução
 
-**Pré-requisitos:** Python 3.9 ou superior.
+Python 3.9 ou superior.
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/<seu-usuario>/<seu-repositorio>.git
-cd <seu-repositorio>
 
 # 2. Instale as dependências
 pip install numpy pandas matplotlib scikit-learn
 
 # 3. Execute
-python codigo_fonte.py          # menu interativo
-python codigo_fonte.py --demo   # executa todas as funcionalidades automaticamente
+python codigo_fonte.py     
 ```
 
 > Se `dados_aurora_siger.csv` não existir, o programa o gera automaticamente com semente fixa
