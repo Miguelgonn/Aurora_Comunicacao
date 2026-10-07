@@ -70,10 +70,8 @@ python codigo_fonte.py
 ### Erros numéricos
 - **Erro absoluto** = observada − prevista
 - **Erro relativo** = erro absoluto / observada × 100
-- Classificação: ≤ 10 % *aceitável*, 10-20 % *atenção*, > 20 % *preocupante*.
 
 ### Modelo e métricas
-Regressão linear (carga, tráfego e potência → latência), com 70 % treino e 30 % teste.
 
 | Métrica | Resultado |
 |---|---|
@@ -81,7 +79,7 @@ Regressão linear (carga, tráfego e potência → latência), com 70 % treino e
 | RMSE | 36,11 ms |
 | R² | 0,924 |
 
-Um único número não basta: o R² é alto, mas o RMSE maior que o MAE mostra que alguns registros têm erro maior.
+O R² é alto, mas o RMSE maior que o MAE mostra que alguns registros têm erro maior.
 
 ### Priorização de alertas (heap)
 Pontuação = `prioridade × 12` + `erro relativo (máx. 40)` + `30 se módulo essencial` + `20 se status = alerta`.
