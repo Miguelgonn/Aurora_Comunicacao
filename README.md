@@ -46,8 +46,8 @@ interplanetária com latência alta e variável. O **SCIC** ajuda a equipe a:
 ├── dados_aurora_siger.csv    
 ├── relatorio_tecnico.md       
 ├── README.md                 
-├── link_video.txt            
-└── graficos_ou_imagens/       
+├── link_video.txt
+   
 ```
 
 ## ⚙️ Instalação e execução
