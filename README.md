@@ -42,12 +42,12 @@ interplanetária com latência alta e variável. O **SCIC** ajuda a equipe a:
 
 ```
 .
-├── codigo_fonte.py            # Sistema principal (menu no terminal)
-├── dados_aurora_siger.csv     # Base de dados simulada (60 registros)
-├── relatorio_tecnico.md       # Relatório técnico completo
-├── README.md                  # Este arquivo
-├── link_video.txt             # Link do vídeo de apresentação (YouTube, não listado)
-└── graficos_ou_imagens/       # Gráficos gerados na execução
+├── codigo_fonte.py           
+├── dados_aurora_siger.csv    
+├── relatorio_tecnico.md       
+├── README.md                 
+├── link_video.txt            
+└── graficos_ou_imagens/       
 ```
 
 ## ⚙️ Instalação e execução
@@ -63,9 +63,6 @@ pip install numpy pandas matplotlib scikit-learn
 # 3. Execute
 python codigo_fonte.py     
 ```
-
-> Se `dados_aurora_siger.csv` não existir, o programa o gera automaticamente com semente fixa
-> (`42`), garantindo resultados reproduzíveis. Nenhuma biblioteca além das listadas é necessária.
 
 ## 📊 Dados
 
