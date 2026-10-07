@@ -68,7 +68,7 @@ python codigo_fonte.py
 ## 🔍 Como funciona
 
 ### Erros numéricos
-- **Erro absoluto** = |observada − prevista|
+- **Erro absoluto** = observada − prevista
 - **Erro relativo** = erro absoluto / observada × 100
 - Classificação: ≤ 10 % *aceitável*, 10-20 % *atenção*, > 20 % *preocupante*.
 
