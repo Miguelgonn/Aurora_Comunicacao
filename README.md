@@ -64,20 +64,6 @@ pip install numpy pandas matplotlib scikit-learn
 python codigo_fonte.py     
 ```
 
-## 📊 Dados
-
-Base simulada em `dados_aurora_siger.csv`, com os campos:
-
-| Campo | Descrição |
-|---|---|
-| `id_registro`, `ciclo` | Identificação e ciclo de registro |
-| `modulo`, `tipo_modulo` | Nome e tipo do módulo |
-| `codigo_dispositivo` | Código do sensor em hexadecimal (ex.: `0xDE0`) |
-| `latencia_observada_ms`, `latencia_prevista_ms` | Latência real e estimativa dos operadores |
-| `carga_pct`, `trafego_mbps` | Uso do módulo e tráfego de rede |
-| `tensao_v`, `corrente_a` | Grandezas elétricas (a potência é calculada: P = V·I) |
-| `status`, `prioridade` | `ativo`, `manutencao` ou `alerta`; prioridade de 1 a 5 |
-| `mensagem_alerta` | Mensagem resumida do alerta |
 
 ## 🔍 Como funciona
 
