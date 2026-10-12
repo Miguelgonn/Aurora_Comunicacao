@@ -42,21 +42,19 @@ interplanetária com latência alta e variável. O **SCIC** ajuda a equipe a:
 
 ```
 .
-├── codigo_fonte.py            # Sistema principal (menu no terminal)
-├── dados_aurora_siger.csv     # Base de dados simulada (30 registros)
-├── README.md                  # Este arquivo
-├── relatorio_tecnico.md       # Relatório técnico completo
-├── link_video.txt             # Link do vídeo de apresentação (YouTube, não listado)
+├── codigo_fonte.py           
+├── dados_aurora_siger.csv     
+├── README.md                  
+├── relatorio_tecnico.md       
+├── link_video.txt             
 ```
 
 ## ⚙️ Instalação e execução
 
-**Pré-requisito:** Python 3.9 ou superior.
+ Python 3.9 ou superior.
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/<seu-usuario>/<seu-repositorio>.git
-cd <seu-repositorio>
 
 # 2. Instale as dependências
 pip install numpy pandas matplotlib scikit-learn
@@ -64,9 +62,6 @@ pip install numpy pandas matplotlib scikit-learn
 # 3. Execute o sistema
 python codigo_fonte.py
 ```
-
-> Se o arquivo `dados_aurora_siger.csv` não existir, o programa o gera automaticamente com semente fixa (`42`),
-> garantindo resultados reproduzíveis. Não são necessárias bibliotecas além das listadas acima.
 
 ## 📊 Dados
 
@@ -85,16 +80,13 @@ Base simulada com **30 registros** (10 módulos × 3 ciclos) e 14 campos:
 | `prioridade_base` | Prioridade de 1 (baixa) a 5 (crítica) |
 | `mensagem` | Mensagem resumida do alerta |
 
-Distribuição de status: 21 ativos, 6 em alerta e 3 em manutenção.
 
 ## 🔍 Como funciona
 
 ### Erros numéricos
 - **Erro absoluto** = |latência observada − latência prevista|
 - **Erro relativo** = erro absoluto / |latência observada| × 100
-- Classificação: abaixo de 10 % *aceitável*, de 10 % a 25 % *atenção*, acima de 25 % *preocupante*.
 
-Resultados: erro absoluto médio de **15,32 ms** e erro relativo médio de **12,54 %** (mediana de 8,04 %).
 
 ### Modelo e métricas
 Regressão linear que estima a latência observada a partir de **carga (%)** e **potência (W)**, com 70 % dos dados
@@ -107,8 +99,6 @@ para treino e 30 % para teste.
 | RMSE | 27,04 ms |
 | R² | 0,38 |
 
-O modelo captura a tendência geral, mas explica apenas cerca de 38 % da variação da latência. O R² é modesto porque a
-base é pequena e as anomalias dos dados não dependem de carga nem de potência. Por isso as métricas são lidas em conjunto.
 
 ### Priorização de alertas (heap)
 Pontuação = `3 × prioridade_base` + `5 se módulo essencial` + `0,5 × erro relativo (%)` + `4 se status = alerta`.
