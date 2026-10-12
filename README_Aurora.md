@@ -140,12 +140,6 @@ manutenção preditiva e microrredes. Também discute o uso eficiente da comunic
 saberes indígenas de uso consciente dos recursos, a revisão dos pesos da pontuação para evitar viés, a transparência da fórmula
 e a **validação humana** das decisões automatizadas. Detalhes em [`relatorio_tecnico.md`](relatorio_tecnico.md).
 
-## ⚠️ Limitações e próximos passos
-
-- Dados simulados e em pequeno volume (30 registros), com anomalias injetadas.
-- Modelo linear simples com apenas duas variáveis, sem superar a estimativa original de latência.
-- Melhorias possíveis: mais dados e variáveis, comparação de modelos com AIC/BIC, Grid/Random Search, pesos de alerta
-  configuráveis e simulação da latência com o método de Euler.
 
 ## 🎥 Vídeo de apresentação
 
