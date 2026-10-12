@@ -2,11 +2,6 @@
 
 > Protótipo em Python para organizar, analisar e priorizar dados de comunicação da colônia **Aurora Siger**.
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![Pandas](https://img.shields.io/badge/Pandas-dados-150458)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-modelo-orange)
-![Status](https://img.shields.io/badge/status-protótipo-green)
-
 ## 👥 Equipe
 
 | Nome | RM |
