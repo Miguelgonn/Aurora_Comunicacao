@@ -44,10 +44,9 @@ interplanetária com latência alta e variável. O **SCIC** ajuda a equipe a:
 .
 ├── codigo_fonte.py            # Sistema principal (menu no terminal)
 ├── dados_aurora_siger.csv     # Base de dados simulada (30 registros)
-├── relatorio_tecnico.md       # Relatório técnico completo
 ├── README.md                  # Este arquivo
+├── relatorio_tecnico.md       # Relatório técnico completo
 ├── link_video.txt             # Link do vídeo de apresentação (YouTube, não listado)
-└── graficos_ou_imagens/       # Gráficos gerados pela opção 3 do menu
 ```
 
 ## ⚙️ Instalação e execução
