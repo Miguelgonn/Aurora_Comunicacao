@@ -149,8 +149,6 @@ e a **validação humana** das decisões automatizadas. Detalhes em [`relatorio_
 
 ## 🎥 Vídeo de apresentação
 
-O link (YouTube, não listado) está em [`link_video.txt`](link_video.txt).
 
-## 📄 Observação
 
-Projeto acadêmico desenvolvido para fins educacionais.
+
