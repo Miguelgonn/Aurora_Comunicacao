@@ -254,24 +254,8 @@ Esta seção parte dos resultados do SCIC.
 - **Linguagem e interpretações justas:** as mensagens de alerta são técnicas e neutras, descrevem o fenômeno (por exemplo, "Latência acima do previsto")
   e não responsabilizam pessoas ou grupos.
 
-## 10. Limitações e possíveis melhorias
 
-**Limitações:**
-
-- Dados simulados e pequenos (30 registros), com anomalias injetadas.
-- Modelo linear com apenas duas variáveis, com R² de 0,38 e sem superar a estimativa original.
-- Pesos da pontuação definidos pela equipe, sem validação com dados reais.
-- Sem sensores, telemetria ou redes reais; os dispositivos são apenas simulados.
-
-**Melhorias:**
-
-- Ampliar a base e incluir mais variáveis (tráfego, distância do enlace, histórico).
-- Comparar modelos com **AIC/BIC** e ajustar hiperparâmetros com **Grid/Random Search**; usar validação cruzada.
-- Tornar os pesos da pontuação configuráveis e revisá-los com a comunidade.
-- Adicionar uma simulação com o método de Euler para a recuperação da latência após acionar um enlace redundante.
-- Acrescentar análise exploratória (`describe`, distribuição da latência com Seaborn).
-
-## 11. Como executar
+## 10. Como executar
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn
