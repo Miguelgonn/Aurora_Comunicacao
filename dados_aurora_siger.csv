@@ -1,0 +1,31 @@
+modulo,tipo,codigo_sensor,ciclo,tensao_V,corrente_A,potencia_W,carga_pct,latencia_obs_ms,latencia_prev_ms,status,essencial,prioridade_base,mensagem
+Comunicação Principal,comunicação,0xA001,1,12,2.04,24.48,84.4,120.95,106.22,ativo,1,4,Operação normal
+Comunicação Principal,comunicação,0xA002,2,48,0.95,45.6,53.8,94.22,106.28,ativo,1,4,Operação normal
+Comunicação Principal,comunicação,0xA003,3,24,1.3,31.2,61.6,93.16,102.32,ativo,1,3,Operação normal
+Comando Central,comunicação,0xA011,1,48,3.9,187.2,87.0,125.95,114.41,manutenção,1,2,Manutenção preventiva agendada
+Comando Central,comunicação,0xA012,2,24,2.89,69.36,75.9,110.15,104.4,ativo,1,1,Operação normal
+Comando Central,comunicação,0xA013,3,48,0.95,45.6,55.7,89.11,93.65,ativo,1,1,Operação normal
+Controle de Energia,armazenamento de dados,0xA021,1,24,1.59,38.16,82.4,117.0,113.05,ativo,1,4,Operação normal
+Controle de Energia,armazenamento de dados,0xA022,2,24,1.2,28.8,20.6,61.14,64.16,ativo,1,1,Operação normal
+Controle de Energia,armazenamento de dados,0xA023,3,24,2.49,59.76,30.5,76.42,80.28,ativo,1,3,Operação normal
+Habitação Alfa,habitação,0xA031,1,12,2.72,32.64,61.5,154.38,93.96,alerta,0,4,Latência acima do previsto
+Habitação Alfa,habitação,0xA032,2,48,1.93,92.64,84.0,115.7,100.37,ativo,0,2,Operação normal
+Habitação Alfa,habitação,0xA033,3,24,2.45,58.8,78.8,116.36,113.09,ativo,0,4,Operação normal
+Habitação Beta,habitação,0xA041,1,24,0.82,19.68,74.2,109.71,98.56,ativo,0,1,Operação normal
+Habitação Beta,habitação,0xA042,2,24,2.06,49.44,48.6,84.52,87.82,manutenção,0,4,Manutenção preventiva agendada
+Habitação Beta,habitação,0xA043,3,24,3.87,92.88,88.1,120.31,111.86,ativo,0,1,Operação normal
+Agricultura Hidropônica,agricultura,0xA051,1,12,2.07,24.84,40.4,73.8,82.72,ativo,0,4,Operação normal
+Agricultura Hidropônica,agricultura,0xA052,2,48,2.53,121.44,33.3,70.26,75.71,ativo,0,2,Operação normal
+Agricultura Hidropônica,agricultura,0xA053,3,12,2.54,30.48,68.7,156.07,96.75,alerta,0,4,Latência acima do previsto
+Laboratório Científico,laboratório,0xA061,1,12,1.01,12.12,27.8,60.87,54.86,ativo,0,2,Operação normal
+Laboratório Científico,laboratório,0xA062,2,24,2.57,61.68,21.7,56.73,56.43,manutenção,0,2,Manutenção preventiva agendada
+Laboratório Científico,laboratório,0xA063,3,12,2.22,26.64,90.3,118.64,117.7,ativo,0,3,Operação normal
+Suporte Médico,suporte médico,0xA071,1,24,2.04,48.96,21.6,105.8,74.01,alerta,1,3,Latência acima do previsto
+Suporte Médico,suporte médico,0xA072,2,12,2.85,34.2,41.1,79.82,85.26,ativo,1,1,Operação normal
+Suporte Médico,suporte médico,0xA073,3,24,1.31,31.44,22.8,59.19,56.9,ativo,1,5,Operação normal
+Armazenamento de Dados,armazenamento de dados,0xA081,1,48,3.84,184.32,41.8,86.21,79.9,ativo,1,2,Operação normal
+Armazenamento de Dados,armazenamento de dados,0xA082,2,24,2.02,48.48,94.4,128.07,137.63,ativo,1,1,Operação normal
+Armazenamento de Dados,armazenamento de dados,0xA083,3,12,1.61,19.32,77.9,184.51,105.28,alerta,1,3,Latência acima do previsto
+Sensores Externos,comunicação,0xA091,1,24,3.78,90.72,38.1,122.22,93.92,alerta,0,2,Latência acima do previsto
+Sensores Externos,comunicação,0xA092,2,24,3.56,85.44,34.7,71.92,77.91,ativo,0,3,Operação normal
+Sensores Externos,comunicação,0xA093,3,24,0.55,13.2,37.2,117.55,78.47,alerta,0,1,Latência acima do previsto
