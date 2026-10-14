@@ -143,6 +143,6 @@ e a **validação humana** das decisões automatizadas. Detalhes em [`relatorio_
 
 ## 🎥 Vídeo de apresentação
 
-
+https://youtu.be/3Oig8-A9MMY
 
 
